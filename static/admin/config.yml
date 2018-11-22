@@ -1,6 +1,5 @@
 backend:   
-  name: github
-  repo: piotrkosytorz/finkers   
+  name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
@@ -8,7 +7,7 @@ media_folder: "static/images/uploads" # Media files will be stored in the repo u
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
 collections:
-  
+
   - name: "posts" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
     folder: "content/post" # The path to the folder where the documents are stored
